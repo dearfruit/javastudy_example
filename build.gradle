@@ -1,0 +1,9 @@
+apply plugin: 'java'
+
+dependencies {
+//    maven {
+//        url : "http://localhost:8081/nexus/content/groups/public/"
+//    }
+    compile('mysql:mysql-connector-java:5.1.34')
+    testCompile('junit:junit:4.7')
+}
